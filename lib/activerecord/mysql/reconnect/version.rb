@@ -1,7 +1,7 @@
 module Activerecord
   module Mysql
     module Reconnect
-      VERSION = '0.5.1'
+      VERSION = '0.5.1.1'
     end
   end
 end
