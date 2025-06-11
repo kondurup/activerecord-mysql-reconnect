@@ -1,5 +1,5 @@
 module Activerecord::Mysql::Reconnect::ReconnectWithRetry
-  def reconnect!
+  def reconnect!(ar)
     Activerecord::Mysql::Reconnect.retryable(
       :proc => proc { super },
       :connection => @connection
